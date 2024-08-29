@@ -20,8 +20,8 @@ function Weather() {
         }
     }
 
-    const handleClick= ()=>{
-        fetchWeather();
+    const handleClick= ()=>{  
+        fetchWeather();  //calling function
     }
   return (
     <div className='weather-container'>
